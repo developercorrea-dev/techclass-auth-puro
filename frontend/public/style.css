@@ -1,0 +1,6 @@
+.container{max-width:480px;margin:64px auto;font-family:system-ui,sans-serif}
+label{display:block;margin-bottom:12px}
+input{width:100%;padding:10px;border:1px solid #ccc;border-radius:8px}
+button{padding:10px 16px;border-radius:8px;cursor:pointer}
+.error{color:crimson}
+pre{background:#f7f7f7;padding:12px;border-radius:8px;overflow:auto}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechClass Auth (Puro)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Entrar</h1>
+      <form id="login-form">
+        <label>
+          <span>Usuário ou E-mail</span>
+          <input id="identifier" type="text" value="admin" required />
+        </label>
+        <label>
+          <span>Senha</span>
+          <input id="password" type="password" value="Admin@123" required />
+        </label>
+        <button type="submit">Entrar</button>
+        <p id="error" class="error" hidden></p>
+      </form>
+
+      <section id="logged" hidden>
+        <h2>Autenticado</h2>
+        <pre id="token"></pre>
+        <button id="logout">Sair</button>
+      </section>
+    </main>
+
+    <script src="./login.js" type="module"></script>
+  </body>
+</html>
