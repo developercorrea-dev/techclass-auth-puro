@@ -117,13 +117,16 @@ MIT.
 
 
 ## Baixar o projeto no Github
-```CMD
+```
+Git Bash ou Git CMD
+Vá até a pasta que queira colocar o projeto
 git clone https://github.com/developercorrea-dev/techclass-auth-puro.git
 cd techclass-auth-puro
 ```
 
 ## Executar script setup.js
-```cd backend
+```
+cd backend
 npm install
 npm run db:init
 ```
