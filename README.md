@@ -115,3 +115,29 @@ Resposta 200 OK:
 ## Licença
 MIT.
 
+
+## Baixar o projeto no Github
+CMD
+git clone https://github.com/developercorrea-dev/techclass-auth-puro.git
+cd techclass-auth-puro
+
+## Executar script setup.js
+cd backend
+npm install
+npm run db:init
+
+## Para rodar a API (Back-end) e o Front-end
+-- API (Back-end)
+CMD
+cd C:\Users\Instrutor\Documents\techclass-auth-puro\backend
+npm start
+
+-- Front-end
+CMD
+cd C:\Users\Instrutor\Documents\techclass-auth-puro\frontend
+npx serve public -l 5174
+Abrir no navegador http://localhost:5174
+
+Informe:
+username: admin
+password: admin123
